@@ -1,4 +1,8 @@
 from flask import Flask, render_template
+import openai 
+import spacy 
+import requests
+
 
 app = Flask(__name__)
 
